@@ -1,0 +1,287 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Graduation_Web_App
+build_property.RootNamespace = Graduation_Web_App
+build_property.ProjectDir = C:\Users\ZeeZo\Desktop\Graduation_Project\Graduation_Web_App\Graduation_Web_App\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ZeeZo\Desktop\Graduation_Project\Graduation_Web_App\Graduation_Web_App
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/BuyerFarmers/BuyerFarmerHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJGYXJtZXJzXEJ1eWVyRmFybWVySGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/BuyerFarmers/BuyerFarmerHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJGYXJtZXJzXEJ1eWVyRmFybWVySG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/BuyerFarmers/BuyerFarmerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJGYXJtZXJzXEJ1eWVyRmFybWVyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/BuyerFarmers/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJGYXJtZXJzXEVkaXRQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/BuyerFarmers/GetAllLands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJGYXJtZXJzXEdldEFsbExhbmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/BuyerFarmers/GetAllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJGYXJtZXJzXEdldEFsbFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/BuyerFarmers/LandDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJGYXJtZXJzXExhbmREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/BuyerFarmers/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJGYXJtZXJzXFByb2R1Y3REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/CompanyHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcQ29tcGFueUhpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/CompanyHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcQ29tcGFueUhvbWVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/CompanyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcQ29tcGFueVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcRWRpdFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/EngineerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcRW5naW5lZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/GetAllEngineers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcR2V0QWxsRW5naW5lZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/GetAllLands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcR2V0QWxsTGFuZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/GetAllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcR2V0QWxsUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/LandDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcTGFuZERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/CompaniesServices/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFuaWVzU2VydmljZXNcUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/CompanyOfferDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcQ29tcGFueU9mZmVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcRWRpdFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/EngineerBankAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcRW5naW5lZXJCYW5rQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/EngineerHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcRW5naW5lZXJIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/EngineerHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcRW5naW5lZXJIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/EngineerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcRW5naW5lZXJQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/FarmerOfferDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcRmFybWVyT2ZmZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/GetAllCompaniesOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcR2V0QWxsQ29tcGFuaWVzT2ZmZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/EngineersServices/GetAllFarmersOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5naW5lZXJzU2VydmljZXNcR2V0QWxsRmFybWVyc09mZmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/CreateFarmerAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcQ3JlYXRlRmFybWVyQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/EditFarmerProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRWRpdEZhcm1lclByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/EngineerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRW5naW5lZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/EquipmentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRXF1aXBtZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/EquipmentOfferDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRXF1aXBtZW50T2ZmZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerEquipmentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyRXF1aXBtZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerEquipments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyRXF1aXBtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVySGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVySG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerLandDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyTGFuZERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerLandOfferDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyTGFuZE9mZmVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerLands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyTGFuZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerProductOfferDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyUHJvZHVjdE9mZmVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/FarmerProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcRmFybWVyUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllEngineers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsRW5naW5lZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllEquipmentOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsRXF1aXBtZW50T2ZmZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllEquipments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsRXF1aXBtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllFarmerLandOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsRmFybWVyTGFuZE9mZmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllFarmerProductOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsRmFybWVyUHJvZHVjdE9mZmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllLandOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsTGFuZE9mZmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllLands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsTGFuZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllProductOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsUHJvZHVjdE9mZmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/GetAllProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcR2V0QWxsUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/LandDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcTGFuZERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/LandOfferDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcTGFuZE9mZmVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/FarmerServices/ProductOfferDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyU2VydmljZXNcUHJvZHVjdE9mZmVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/SharedServices/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkU2VydmljZXNcSG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ZeeZo/Desktop/Graduation_Project/Graduation_Web_App/Graduation_Web_App/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-74yfcjqfwo

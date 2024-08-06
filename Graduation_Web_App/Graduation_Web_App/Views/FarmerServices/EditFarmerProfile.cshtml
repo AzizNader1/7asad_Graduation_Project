@@ -1,0 +1,332 @@
+﻿@model FarmerDto
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: white
+        }
+
+        header {
+            background: #fff;
+            padding: 10px 0;
+            border-bottom: 2px solid #198754;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        nav {
+            flex: 1;
+            text-align: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+            .nav-links li {
+                margin: 0 15px;
+            }
+
+            .nav-links a {
+                color: #198754;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+                .nav-links a.active {
+                    border-bottom: 2px solid white;
+                }
+
+        .login {
+            font-size: 18px;
+        }
+
+            .login a {
+                color: #198754;
+                text-decoration: none;
+            }
+
+        .LastLink {
+            position: absolute;
+            right: 90%;
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            top: 30px;
+        }
+
+        .footer {
+            background-color: #198754;
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+            margin-top: auto;
+        }
+
+            .footer .container {
+                max-width: 1200px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .footer .column {
+                flex: 1;
+                min-width: 200px;
+                padding: 10px;
+            }
+
+                .footer .column img {
+                    max-width: 150px;
+                    margin-bottom: 10px;
+                }
+
+            .footer .social-icons a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 24px;
+            }
+
+            .footer .links a {
+                display: block;
+                color: white;
+                text-decoration: none;
+                margin: 5px 0;
+            }
+
+                .footer .links a:hover {
+                    text-decoration: underline;
+                }
+
+            .footer .contact-info p {
+                margin: 5px 0;
+            }
+
+            .footer .copy {
+                margin-top: 40px;
+                font-size: 14px;
+                border-top-style: solid;
+                border-top-width: 2px;
+                border-block-color: #fff;
+            }
+
+                .footer .copy p {
+                    margin-top: 20px;
+                    color: white;
+                }
+
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-container {
+            background-color: white;
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            box-shadow: 5px 5px 15px black;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px
+        }
+
+        .profile-title {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #198754;
+        }
+
+        .profile-section {
+            margin-bottom: 20px;
+            position: relative;
+            padding: 10px;
+            border: 2px solid #198754;
+            border-radius: 15px;
+            text-align: right;
+        }
+
+            .profile-section label {
+                position: absolute;
+                top: -12px;
+                right: 10px;
+                background-color: white;
+                padding: 0 5px;
+                font-weight: bold;
+                font-size: 16px;
+                color: #198754;
+            }
+
+            .profile-section input {
+                width: 100%;
+                padding: 10px;
+                border: 2px solid #198754;
+                border-radius: 20px;
+                font-size: 18px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                background-color: white;
+                box-shadow: 2px 2px 2px #198754;
+            }
+
+        .profile-buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+            .profile-buttons .btn {
+                padding: 10px 20px;
+                color: #fff;
+                transition: background-color 0.3s ease;
+                border: 2px solid #198754;
+                font-size: 25px;
+                background-color: #198754;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+        .btn:hover {
+            background-color: white;
+            color: #198754;
+            transform: scale(1.02);
+            text-decoration: none;
+        }
+    </style>
+
+    <title>Edit Profile</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="~/7asadLogo.jpg" alt="Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/FarmerServices/FarmerHomePage" class="active">الرئيسية</a></li>
+                    <li><a href="/FarmerServices/FarmerDetails/@ViewBag.FarmerId">البيانات الشخصيه</a></li>
+                    <li><a href="/FarmerServices/FarmerProducts">محاصيلي الزراعيه</a></li>
+                    <li><a href="/FarmerServices/FarmerEquipments">معداتي الزراعيه</a></li>
+                    <li><a href="/FarmerServices/FarmerLands">اراضي الزراعيه</a></li>
+                    <li><a href="/FarmerServices/FarmerHistory">عروضي</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="/SharedServices/Logout"><i class="bi bi-person"></i> تسجيل الخروج</a>
+            </div>
+        </div>
+    </header>
+    @if (TempData["EditResult"] != null)
+    {
+        <div class="alert alert-danger align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;">@TempData["EditResult"]</p>
+        </div>
+    }
+    <div class="content">
+        <div class="profile-container">
+            <form method="post" asp-action="EditFarmerProfile" asp-controller="FarmerServices" enctype="multipart/form-data">
+                <h1 class="profile-title">تعديل بيانات حسابك الشخصي</h1>
+                <div class="profile-section">
+                    <label for="personal-data">البيانات الشخصية</label>
+                    <input type="text" id="Name" value="@Model.FarmerName" name="FarmerName">
+                    <span asp-validation-for="FarmerName"></span>
+                    <input type="file" id="photo" name="FarmerImage" placeholder="Select Your Photo">
+                </div>
+                <div class="profile-section">
+                    <label for="address">العنوان</label>
+                    <input type="text" id="address" placeholder="Enter address" value="@Model.FarmerAddress" name="FarmerAddress">
+                    <span asp-validation-for="FarmerAddress"></span>
+                </div>
+                <div class="profile-section">
+                    <label for="contact-info">وسائل التواصل</label>
+                    <input type="email" id="Email" value="@Model.FarmerEmail" name="FarmerEmail">
+                    <span asp-validation-for="FarmerEmail"></span>
+                    <input type="text" id="Phone" value="@Model.FarmerPhone" name="FarmerPhone">
+                    <span asp-validation-for="FarmerPhone"></span>
+                </div>
+                <div class="profile-section">
+                    <label for="contact-info">كلمه السر</label>
+                    <input type="password" id="Password" value="@Model.FarmerPassword" name="FarmerPassword">
+                    <span asp-validation-for="FarmerPassword"></span>
+                </div>
+                <div class="profile-buttons">
+                    @Html.ActionLink("رجوع","FarmerHomePage","FarmerServices",null,new {@class = "btn btn-success"})
+                    <input type="submit" class="btn btn-success" value="حفظ" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="column">
+                <img src="~/7asadLogo.jpg" alt="Logo">
+                <p>حصاد</p>
+                <div class="contact-info">
+                    <p>Asiut Square Mall – First Tourist Village</p>
+                    <p>6 October, Asiut – Egypt</p>
+                    <p>info@tasd.net</p>
+                    <p>01226393057</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>روابط سريعة</h3>
+                <div class="links">
+                    <a href="#">الرئيسية</a>
+                    <a href="#">الخدمات</a>
+                    <a href="#">تكنولوجيا</a>
+                    <a href="#">المدونة</a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>تابعنا</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2024 جميع الحقوق محفوظة لتطبيق حصاد</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+

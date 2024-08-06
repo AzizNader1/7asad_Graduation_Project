@@ -1,0 +1,1195 @@
+﻿@model UserView
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/HomePageImages/vars.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            direction: rtl;
+        }
+
+        header {
+            background: #fff;
+            padding: 10px 0;
+            border-bottom: 2px solid #0e690e;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo img {
+            width: 75px;
+            height: 75px;
+            max-width: 100px;
+        }
+
+        nav {
+            flex: 1;
+            text-align: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+            .nav-links li {
+                margin: 0 15px;
+            }
+
+            .nav-links a {
+                color: #0e690e;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+                .nav-links a.active {
+                    border-bottom: 2px solid white;
+                }
+
+        .login {
+            font-size: 18px;
+        }
+
+            .login a {
+                color: #0e690e;
+                text-decoration: none;
+            }
+
+        .LastLink {
+            position: absolute;
+            right: 90%;
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            top: 30px;
+        }
+
+        .footer {
+            background-color: #198754;
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+        }
+
+            .footer .container {
+                max-width: 1200px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .footer .column {
+                flex: 1;
+                min-width: 200px;
+                padding: 10px;
+            }
+
+                .footer .column img {
+                    max-width: 150px;
+                    margin-bottom: 10px;
+                }
+
+            .footer .social-icons a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 24px;
+            }
+
+            .footer .links a {
+                display: block;
+                color: white;
+                text-decoration: none;
+                margin: 5px 0;
+            }
+
+                .footer .links a:hover {
+                    text-decoration: underline;
+                }
+
+            .footer .contact-info p {
+                margin: 5px 0;
+            }
+
+            .footer .copy {
+                margin-top: 40px;
+                font-size: 14px;
+                border-top-style: solid;
+                border-top-width: 2px;
+                border-block-color: #fff;
+            }
+
+                .footer .copy p {
+                    margin-top: 20px;
+                }
+
+        /* CSS Of The Frame */
+        .frame-1 {
+            flex-shrink: 0;
+            height: 765px;
+            text-align: center;
+            position: relative;
+            transform-origin: 1 0;
+            overflow: hidden;
+        }
+
+        .slideshow-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .slide {
+            opacity: 0;
+            position: absolute;
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+            width: 100%;
+            height: 100%;
+            transform: scale(1);
+        }
+
+            .slide.active {
+                opacity: 1;
+                position: relative;
+                transform: scale(1.1);
+            }
+
+            .slide img {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+
+        .caption {
+            color: #ffffff;
+            text-align: right;
+            font-family: "Signika-Medium", sans-serif;
+            font-size: 89px;
+            line-height: 92px;
+            font-weight: 500;
+            position: absolute;
+            left: 65%;
+            top: 50px;
+            width: 100%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tv-bar-container {
+            width: 100%;
+            overflow: hidden; /* Prevent horizontal scrolling */
+            position: relative;
+        }
+
+        /* TV-Bar Styling */
+        .tv-bar {
+            display: inline-block; /* Make it inline-block for animation */
+            white-space: nowrap;
+            background-color: white;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px 0; /* Adjust padding as needed */
+            font-size: 32px;
+            animation: marquee 10s linear infinite;
+        }
+
+        @@keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* our functions Styling */
+        /* Page Container */
+        .page-container,
+        .page-container * {
+            box-sizing: border-box;
+        }
+
+        .page-container {
+            padding: 0px 6px 0px 6px;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            height: 636px;
+            position: relative;
+        }
+
+        .services-row {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: 1292px;
+            height: 600px;
+            position: relative;
+        }
+
+        .services-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            width: 1311px;
+            height: 627px;
+            position: relative;
+        }
+
+        .service-card {
+            padding: 14px 0px 14px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            width: 410px;
+            height: 504px;
+            position: relative;
+        }
+
+        .service-header {
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .service-icon-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 4.16px;
+            height: 6.24px;
+            position: absolute;
+            right: 21.52px;
+            top: 22.92px;
+        }
+
+        .service-link-wrapper {
+            z-index: 1;
+            background: var(--agrimo-demopbminfotechcom-confetti, #eddd5e) no-repeat center center;
+            background-image: url(HomePageImages/arrow_EN.png); /* Ensure the image path is correct */
+            border-radius: 50%; /* Make it circular */
+            padding: 0; /* Remove padding to maximize space for the image */
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            right: 0.34px;
+            bottom: -518.19px;
+            border: none; /* Remove default button border */
+            cursor: pointer; /* Add cursor pointer for clickable appearance */
+            background-size: 50px; /* Adjust these values as needed */
+            background-position: center;
+        }
+
+
+        .service-link {
+            flex-shrink: 0;
+            width: 22.37px;
+            height: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-content {
+            padding: 20px 20px 22px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+            justify-content: flex-start;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .mask-group {
+            flex-shrink: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            right: 0%;
+            left: 0%;
+            bottom: 0%;
+            top: 0%;
+            overflow: visible;
+        }
+
+
+        .service-image-wrapper {
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            align-items: flex-start;
+            justify-content: center;
+            align-self: stretch;
+            flex-shrink: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-image {
+            width: 100%;
+            flex-shrink: 0;
+            height: 273.64px;
+            max-width: 369.66px;
+            position: relative;
+            overflow: hidden;
+            object-fit: cover;
+        }
+
+        .service-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            height: 169px;
+            position: relative;
+        }
+
+        .service-title {
+            padding: 26px 0px 0px 0px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-shrink: 0;
+            width: 379px;
+            height: 80px;
+            position: relative;
+        }
+
+        .service-title-text {
+            color: var(--agrimo-demopbminfotechcom-lunar-green, #404a3d);
+            text-align: left;
+            font-family: "Signika-SemiBold", sans-serif;
+            font-size: 26px;
+            line-height: 32px;
+            font-weight: 600;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0px 6px 0px 0px;
+        }
+
+        .service-description {
+            color: #404a3d;
+            text-align: right;
+            font-family: "Signika-Medium", sans-serif;
+            font-size: 26px;
+            line-height: 32px;
+            font-weight: 500;
+            position: relative;
+            width: 332px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin: -10px 0 0 0;
+        }
+
+        .service-description-title {
+            color: #404a3d;
+            text-align: left;
+            font-family: "Signika-SemiBold", sans-serif;
+            font-size: 26px;
+            line-height: 32px;
+            font-weight: 600;
+            position: absolute;
+            left: 177.35px;
+            top: 18.77px;
+            width: 200px;
+            height: 54px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0px 5px 0px 0px;
+        }
+
+        .horizontal-border {
+            align-self: stretch;
+            flex-shrink: 0;
+            height: 72.19px;
+            position: relative;
+            overflow: visible;
+            margin: -26px 0 0 0;
+        }
+        /* How we Work */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            direction: rtl;
+        }
+
+        .how-we-work {
+            background-color: #198754;
+            padding: 50px 0;
+        }
+
+            .how-we-work h1 {
+                font-size: 2.5em;
+                margin-bottom: 30px;
+            }
+
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            position: relative;
+            background-color: #2e7d32;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            margin: 10px 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+            .card img {
+                width: 100%;
+                height: auto;
+            }
+
+        .card-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+            .card-content h2 {
+                font-size: 1.5em;
+                margin: 0 0 10px 0;
+                color: white;
+            }
+
+            .card-content p {
+                margin: 0;
+                color: white;
+            }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        /* About 7asad */
+        .content-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #008000;
+            border-radius: 20px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row-reverse; /* Ensure image is on the right */
+            align-items: flex-start; /* Align items at the top */
+            flex-wrap: nowrap; /* Prevent wrapping */
+        }
+
+        .header-title-text {
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+            padding: 20px;
+            min-width: 300px;
+        }
+
+        .header {
+            color: #008000;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            color: #0033cc;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            margin-right: 70px;
+            font-size: 24px;
+            color: #000;
+            text-align: right;
+        }
+
+        .image {
+            flex: 1;
+            padding: 20px;
+            min-width: 300px;
+        }
+
+            .image img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        /* 7asad vision Styling */
+        .containerVision {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin-bottom: 50px;
+        }
+
+        .image-section {
+            position: relative;
+            margin-right: 100px;
+        }
+
+            .image-section img {
+                width: 400px;
+                height: auto;
+                border-radius: 10px;
+            }
+
+        .cardVision {
+            position: absolute;
+            padding: 15px 20px;
+            border-radius: 12px; /* Increased border-radius */
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+            width: 200px;
+        }
+
+        .green-card {
+            background-color: #198754; /* Olive Drab */
+            top: 82%;
+            left: -10%;
+            transform: translate(-50%, -50%);
+        }
+
+        .blue-card {
+            background-color: #4054b2; /* San Marino */
+            top: 82%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+        }
+
+        .cardVision span {
+            display: block;
+            margin: 5px 0;
+            font-size: 1.1em; /* Improved font size */
+        }
+
+        .text-section {
+            color: #000;
+            text-align: right;
+            max-width: 500px;
+        }
+
+        strong {
+            color: var(--mozare3net-chathams-blue, #1b478d);
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .text-section h2 {
+            color: #54a029; /* Olive Drab */
+            font-size: 2em; /* Enhanced font size */
+        }
+
+        .text-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .text-section li {
+            margin-bottom: 20px;
+            line-height: 1.6; /* Improved line-height for readability */
+        }
+
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+        }
+
+            .fade-in.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        .FormContent {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F1F8E8
+        }
+
+        .profile-container {
+            background-color: white;
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            box-shadow: 5px 5px 15px black;
+            border-radius: 15px;
+            text-align: center;
+            margin: 50px auto
+        }
+
+        .profile-title {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #198754;
+        }
+
+        .profile-section {
+            margin-bottom: 20px;
+            position: relative;
+            padding: 10px;
+            border: 2px solid #198754;
+            border-radius: 15px;
+            text-align: right;
+        }
+
+            .profile-section label {
+                position: absolute;
+                top: -12px;
+                right: 10px;
+                background-color: white;
+                padding: 0 5px;
+                font-weight: bold;
+                font-size: 16px;
+                color: #198754;
+            }
+
+            .profile-section input, select {
+                width: 100%;
+                padding: 10px;
+                border: 2px solid #198754;
+                border-radius: 20px;
+                font-size: 18px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                background-color: white;
+                box-shadow: 2px 2px 2px #198754;
+                outline: none;
+            }
+
+        .profile-buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+            .profile-buttons .btn {
+                padding: 10px 20px;
+                color: #fff;
+                transition: background-color 0.3s ease;
+                border: 2px solid #198754;
+                font-size: 25px;
+                background-color: #198754;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+        .btn:hover {
+            background-color: white;
+            color: #198754;
+            transform: scale(1.02);
+            text-decoration: none
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="~/7asadLogo.jpg" alt="Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/SharedServices/HomePage" class="active">الرئيسية</a></li>
+                    <li><a href="#OurProducts">خدماتنا</a></li>
+                    <li><a href="#HowWeWork">كيف نعمل</a></li>
+                    <li><a href="#About">عن حصاد</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#LoginModal">
+                    تسجيل الدخول
+                </button>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#SignUpModal">
+                    انشاء حساب جديد
+                </button>
+            </div>
+        </div>
+    </header>
+    @if (TempData["SignUpResultSuccess"] != null)
+    {
+        <div class="alert alert-success align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;"> @TempData["SignUpResultSuccess"]</p>
+        </div>
+    }
+    @if (TempData["SignUpResultError"] != null)
+    {
+        <div class="alert alert-danger align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;"> @TempData["SignUpResultError"]</p>
+        </div>
+    }
+    @if (TempData["SignUpResult"] != null)
+    {
+        <div class="alert alert-danger align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;"> @TempData["SignUpResult"]</p>
+        </div>
+    }
+    @if (TempData["SessionError"] != null)
+    {
+        <div class="alert alert-danger align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;">@TempData["SessionError"]</p>
+        </div>
+    }
+    <!-- Login Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="FormContent">
+                    <form method="post" class="profile-container" asp-action="Login" asp-controller="SharedServices" id="LoginForm">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="profile-section ">
+                            <label for="UserEmail">الايميل المستخدم</label>
+                            <input type="email" name="UserEmail" required />
+                        </div>
+                        <div class="profile-section">
+                            <label>كلمه السر</label>
+                            <input type="password" name="UserPassword" required" />
+                        </div>
+                        <div class="profile-buttons">
+
+                            <button type="submit" class="btn btn-success" onsubmit="LoginSendData()">تسجيل الدخول</button>
+                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">غلق النافذه</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SignUp Modal -->
+    <div class="modal fade" id="SignUpModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="FormContent">
+                    <form asp-action="SignUp" id="SignUpForm" class="profile-container" asp-controller="SharedServices" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="profile-section">
+                            <label>اسم المستخدم</label>
+                            <input asp-for="UserName" required />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="profile-section">
+                            <label>البريد الإلكتروني</label>
+                            <input asp-for="UserEmail" required />
+                            <span asp-validation-for="UserEmail" class="text-danger">@ViewBag.EmailMessage</span>
+                        </div>
+                        <div class="profile-section">
+                            <label>كلمة المرور</label>
+                            <input asp-for="UserPassword" required minlength="8" />
+                            <span asp-validation-for="UserPassword" class="text-danger"></span>
+                        </div>
+                        <div class="profile-section">
+                            <label>العنوان</label>
+                            <input asp-for="UserAddress" required />
+                            <span asp-validation-for="UserAddress" class="text-danger"></span>
+                        </div>
+                        <div class="profile-section">
+                            <label>رقم الهاتف</label>
+                            <input type="text" required pattern="^01[0125][0-9]{8}$" title="Please enter a valid Egyptian phone number (e.g., 01012345678)" id="UserPhone" name="UserPhone" />
+                            <span asp-validation-for="UserPhone" class="text-danger"></span>
+                        </div>
+                        <div class="profile-section">
+                            <label>نوع العمل</label>
+                            <select asp-for="CompanyType" asp-items="@Html.GetEnumSelectList(typeof(CompanyTypes))" required>
+                                <option value="">-- اختر القيمة --</option>
+                            </select>
+                            <span asp-validation-for="CompanyType" class="text-danger"></span>
+                        </div>
+                        <div class="profile-section">
+                            <label>الفئه المراد الانضمام اليها</label>
+                            <select asp-for="UserType" asp-items="@Html.GetEnumSelectList(typeof(UserTypes))" required>
+                                <option value="">-- اختر القيمة --</option>
+                            </select>
+                            <span asp-validation-for="UserType" class="text-danger"></span>
+                        </div>
+                        <div class="profile-section">
+                            <label>صورة المستخدم</label>
+                            <input type="file" name="UserImage" required />
+                            <span class="text-danger"></span>
+                        </div>
+                        <div class="profile-buttons">
+
+                            <button type="submit" class="btn btn-success" onsubmit="SignUpSendData()">انشاء الحساب</button>
+                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">غلق النافذه</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="frame-1">
+        <div class="slideshow-container">
+            <div class="slide active">
+                <img src="/HomePageImages/agr1.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="/HomePageImages/agr2.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="/HomePageImages/agr3.jpg" alt="Image 3">
+            </div>
+        </div>
+        <div class="caption">
+            مرحباً بكم
+            <br />
+            في حصــاد
+        </div>
+    </div>
+
+    <div class="tv-bar-container">
+        <div class="tv-bar">
+            حصــــــاد ربط سلس بين المزارعين، المهندسين، والشركات الزراعية لتحسين جودة الإنتاج وتعزيز الشفافية ودعم الاستدامة.
+        </div>
+    </div>
+    <!-- Our Functions -->
+
+    <div id="OurProducts" class="page-container fade-in">
+        <div class="services-row">
+            <div class="services-wrapper">
+                <div class="service-card fade-in">
+                    <div class="service-header">
+                        <div class="service-icon-wrapper">
+                            <img class="icon" src="/HomePageImages/icon0.svg" />
+                        </div>
+                        <input type="button" class="service-link-wrapper" />
+                    </div>
+                    <div class="service-content">
+                        <img class="mask-group" src="/HomePageImages/mask-group0.svg" />
+                        <div class="service-image-wrapper">
+                            <img class="service-image"
+                                 src="/HomePageImages/service-img-01-770-x-570-jpg0.png" />
+                        </div>
+                        <div class="service-info" onclick="window.location.href='/CompaniesServices/CompanyHomePage'">
+                            <div class="service-title">
+                                <div class="service-title-text">خدمات الشركات</div>
+                                <div class="service-link"></div>
+                            </div>
+                            <div class="service-description">من هنا تقدر توصل لكل الي محتاجه لشركتك</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-header">
+                        <div class="service-icon-wrapper">
+                            <img class="icon" src="/HomePageImages/icon1.svg" />
+                        </div>
+                        <input type="button" class="service-link-wrapper" />
+                    </div>
+                    <div class="service-content">
+                        <img class="mask-group" src="/HomePageImages/mask-group0.svg" />
+                        <div class="service-image-wrapper">
+                            <img class="service-image"
+                                 src="/HomePageImages/service-img-02-770-x-570-jpg0.png" />
+                        </div>
+                        <div class="service-info" onclick="window.location.href='/EngineersServices/EngineerHomePage'">
+                            <div class="service-title">
+                                <div class="service-title-text">خدمات المهندسين</div>
+                                <div class="service-link"></div>
+                            </div>
+                            <div class="service-description">تقدر تعرض خدمتك و تطلب خدمه من هنا</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-header">
+                        <input type="button" class="service-link-wrapper" />
+                    </div>
+                    <div class="service-content">
+                        <img class="mask-group" src="/HomePageImages/mask-group0.svg" />
+                        <div class="service-image-wrapper">
+                            <img class="service-image"
+                                 src="/HomePageImages/service-img-03-770-x-570-jpg0.png" />
+                        </div>
+                        <div class="service-info" onclick="window.location.href='/FarmerServices/FarmerHomePage'">
+                            <div class="service-title">
+                                <div class="service-link"></div>
+                            </div>
+                            <div class="service-description-title">خدمات المُزارعين</div>
+                            <div class="service-description">
+                                تقدر تتحكم في محاصيلك و الاتك الزراعيه و اراضيك
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- How we Work -->
+    <section id="HowWeWork" class="how-we-work">
+        <h1>كيف نعمل؟</h1>
+        <div class="cards-container">
+            <div class="card">
+                <img src="/HomePageImages/background1.png" alt="الزراعة التعاقدية">
+                <div class="card-content">
+                    <h2>بيع محاصيل</h2>
+                    <p>تأمين فرص تسويقية من بيتك.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/HomePageImages/background2.png" alt="الدعم الفني للمزارعين">
+                <div class="card-content">
+                    <h2>الدعم الفني للمزارعين</h2>
+                    <p>
+                        دعم المزارعين بتقديم الدعم
+                        الفني الزراعي لزيادة إنتاجية
+                        المزارعين ودخلهم
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/HomePageImages/background3.png" alt="بيع محاصيل">
+                <div class="card-content">
+                    <h2> الزراعة التعاقدية</h2>
+                    <p>تأمين فرص تسويقية للمزارعين</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About 7asad -->
+    <div id="About" class="content-container">
+
+        <div class="content">
+            <div class="text">
+                <div class="header">عن حصاد</div>
+                <div class="title">مجتمع حصاد</div>
+                <p>
+                    حصاد تهدف إلى إحداث تغيير جذري في القطاع الزراعي في مصر ومنطقة الشرق الأوسط وأفريقيا، بينما تصبح التطبيق الفائق الأمثل لجميع الاحتياجات المالية الزراعية
+                    وغير الزراعية لجميع المزارعين.
+                </p>
+                <p>
+                    تتيح الزراعة التعاقدية للمزارعين التخطيط للمستقبل والاستثمار والحصول على التمويل أيضًا، مع
+                    السماح لهم بالحصول على رؤية عكسية لسلسلة التوريد الزراعية الخاصة بهم.
+                </p>
+            </div>
+            <div class="image">
+                <img src="/HomePageImages/About7asad.png" alt="Agriculture">
+            </div>
+        </div>
+    </div>
+    <!-- 7asad Vision -->
+    <div class="containerVision">
+
+        <div class="text-section">
+            <h2>رؤية حصاد</h2>
+            <ul>
+                <li>
+                    <strong>التواصل الفعال</strong><br>
+                    ربط متين بين المزارعين والمستثمرين والشركات الزراعية لتحسين سلاسل الإمداد وخلق شراكات نوعية مستدامة
+                </li>
+                <li>
+                    <strong>تحسين الجودة والاستدامة</strong><br>
+                    رفع مستوى جودة الإنتاج الزراعي وتطوير التقنيات لدعم الاستدامة والربحية
+                </li>
+                <li>
+                    <strong>تعزيز التعاون</strong><br>
+                    تعزيز التعاون بين جميع الأطراف في القطاع الزراعي لتحقيق الاستدامة والربحية المستدامة
+                </li>
+            </ul>
+        </div>
+        <div class="image-section">
+            <img src="/HomePageImages/mozare-3-qnnman-4-m-65-o-7-akgl-25-pnmk-2-bic-4-mb-8-z-36-pi-72-i-1-kp-8-jpg0.png" alt="Farmer in the field">
+            <div class="cardVision green-card">
+                <span>2024</span>
+                <span>100+</span>
+                <span>قرية مستفيد</span>
+            </div>
+            <div class="cardVision blue-card">
+                <span>2024</span>
+                <span>35+</span>
+                <span>مزرعة مستدامة</span>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="column">
+                <img src="/7asadLogo.svg" alt="Logo">
+                <p>حصاد</p>
+                <div class="contact-info">
+                    <p>Asiut Square Mall – First Tourist Village</p>
+                    <p>6 October, Asiut – Egypt</p>
+                    <p>info@tasd.net</p>
+                    <p>01226393057</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>روابط سريعة</h3>
+                <div class="links">
+                    <a href="#">الرئيسية</a>
+                    <a href="#">الخدمات</a>
+                    <a href="#">تكنولوجيا</a>
+                    <a href="#">المدونة</a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>تابعنا</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2024 جميع الحقوق محفوظة لتطبيق حصاد</p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.fade-in').forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+    <script src="/HomePageImages/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        function LoginSendData() {
+            var formData = $("#LoginForm").serialize();
+
+            $.ajax({
+                url: "/SharedServices/Login", // Update the URL to your POST endpoint
+                type: "POST",
+                data: formData,
+                success: function (response) {
+                    $("#LoginModal").modal("hide");
+                    alert("Your request done successfully!");
+                },
+                error: function (error) {
+                    alert("An error occurred. Please try again.");
+                }
+            });
+        });
+
+        function SignUpSendData() {
+            var formData = $("#SignUpForm").serialize();
+
+            $.ajax({
+                url: "/SharedServices/SignUp", // Update the URL to your POST endpoint
+                type: "POST",
+                data: formData,
+                success: function (response) {
+                    $("#SignUpModal").modal("hide");
+                    alert("Your request done successfully!");
+                },
+                error: function (error) {
+                    alert("An error occurred. Please try again.");
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

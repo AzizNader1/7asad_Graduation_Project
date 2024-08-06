@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\controllers\\farmerservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\controllers\\farmerservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\requestengineer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\requestengineer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\uploadcrops.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\uploadcrops.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\uploadequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\uploadequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\uploadland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\uploadland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\editfarmerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\editfarmerprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\createfarmeraccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\createfarmeraccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\getallfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\getallfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\getallengineers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\getallengineers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\farmerhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\farmerhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\farmerhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\farmerhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\farmerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\farmerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\deletefarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\deletefarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\engineerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\engineerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\farmerservices\\createfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\farmerservices\\createfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduation_web_app\\graduation_web_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45DBA57D-D214-4A8D-A374-9A42A9F46B39}|Graduation_Web_App\\Graduation_Web_App.csproj|solutionrelative:graduation_web_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllFarmers.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\GetAllFarmers.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\GetAllFarmers.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\GetAllFarmers.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\GetAllFarmers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T17:36:49.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FarmerHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\FarmerHistory.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\FarmerHistory.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\FarmerHistory.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\FarmerHistory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T17:36:42.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Program.cs",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Program.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Program.cs",
+              "RelativeToolTip": "Graduation_Web_App\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T17:28:59.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestEngineer.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\RequestEngineer.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\RequestEngineer.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\RequestEngineer.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\RequestEngineer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:53:04.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EngineerDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\EngineerDetails.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\EngineerDetails.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\EngineerDetails.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\EngineerDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:42:52.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAllEngineers.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\GetAllEngineers.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\GetAllEngineers.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\GetAllEngineers.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\GetAllEngineers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:34:17.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UploadCrops.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\UploadCrops.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\UploadCrops.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\UploadCrops.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\UploadCrops.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:33:00.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UploadEquipment.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\UploadEquipment.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\UploadEquipment.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\UploadEquipment.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\UploadEquipment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:32:26.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadLand.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\UploadLand.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\UploadLand.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\UploadLand.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\UploadLand.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:31:58.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateFarmer.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\CreateFarmer.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\CreateFarmer.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\CreateFarmer.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\CreateFarmer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:21:57.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateFarmerAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\CreateFarmerAccount.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\CreateFarmerAccount.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\CreateFarmerAccount.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\CreateFarmerAccount.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:21:35.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteFarmer.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\DeleteFarmer.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\DeleteFarmer.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\DeleteFarmer.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\DeleteFarmer.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T16:11:39.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FarmerServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Controllers\\FarmerServicesController.cs",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Controllers\\FarmerServicesController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Controllers\\FarmerServicesController.cs",
+              "RelativeToolTip": "Graduation_Web_App\\Controllers\\FarmerServicesController.cs",
+              "ViewState": "AQIAANoCAAAAAAAAAAAcwOMCAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T16:09:30.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditFarmerProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\EditFarmerProfile.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\EditFarmerProfile.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\EditFarmerProfile.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\EditFarmerProfile.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAwHMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T15:43:46.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T14:35:22.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FarmerHomePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\FarmerHomePage.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\FarmerHomePage.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\FarmerHomePage.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\FarmerHomePage.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAI4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T14:31:57.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FarmerDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\FarmerDetails.cshtml",
+              "RelativeDocumentMoniker": "Graduation_Web_App\\Views\\FarmerServices\\FarmerDetails.cshtml",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\Graduation_Web_App\\Graduation_Web_App\\Views\\FarmerServices\\FarmerDetails.cshtml",
+              "RelativeToolTip": "Graduation_Web_App\\Views\\FarmerServices\\FarmerDetails.cshtml",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAwIAAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T14:31:36.621Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

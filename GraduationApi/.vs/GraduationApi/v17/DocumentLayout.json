@@ -1,0 +1,1621 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\engineercompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\engineercompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\engineerfarmerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\engineerfarmerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\loginguserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\loginguserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\bankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\bankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\bankservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\bankservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\loginguserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\loginguserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\farmerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\farmerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\ifileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\ifileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\represintorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\represintorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\landscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\landscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\equipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\equipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\engineerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\engineerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\controllers\\farmerequipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\controllers\\farmerequipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\farmerequipmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\farmerequipmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\farmerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\farmerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\landorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\landorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\landservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\landservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\represintorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\represintorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\equipmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\equipmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\engineerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\engineerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\companyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\companyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\ifarmerequipmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\ifarmerequipmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\ilandservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\ilandservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\ifarmerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\ifarmerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\iengineerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\iengineerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\icompanyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\icompanyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\equipmentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\equipmentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\viewfilesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\viewfilesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\productimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\productimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\irepresintorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\irepresintorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\iequipmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\iequipmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\services\\productorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\services\\productorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\iproductorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\iproductorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\ilandorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\ilandorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\interfaces\\icompanyaccountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\interfaces\\icompanyaccountservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\equipmentimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\equipmentimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmeraccountdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmeraccountdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmerequipmentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmerequipmentdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\landorderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\landorderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\productorderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\productorderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\productorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\productorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\represintordetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\represintordetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineerfarmerdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineerfarmerdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmerequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmerequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmerimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmerimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\companyimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\companyimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\productorderimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\productorderimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\landorderimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\landorderimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmerequipmentimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmerequipmentimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\represintorimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\represintorimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineerimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineerimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\landimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\landimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\represintordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\represintordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\represintor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\represintor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\productorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\productorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\productdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\productdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\landdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\landdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\loginguserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\loginguserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\loginguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\loginguser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\landorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\landorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\landorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\landorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\landdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\landdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\land.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\land.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\fileuploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\fileuploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\filelistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\filelistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\fileinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\fileinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmerequipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmerequipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmeraccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmeraccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmeraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmeraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\equipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\equipmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineerfarmerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineerfarmerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineerfarmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineerfarmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineercompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineercompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineercompanydetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineercompanydetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineeraccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineeraccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineeraccountdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineeraccountdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineeraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineeraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\engineer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\engineer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\companyaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\companyaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\companyaccountdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\companyaccountdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\companyaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\companyaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\bankdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\bankdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|c:\\users\\saras\\desktop\\repo\\graduation_project\\graduationapi\\graduationapi\\migrations\\20240411233554_adding the data anotations into all models to make them all required.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F5B3F8C-6496-4A50-86DA-A6507AA430A5}|GraduationApi\\GraduationApi.csproj|solutionrelative:graduationapi\\migrations\\20240411233554_adding the data anotations into all models to make them all required.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EngineerCompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\EngineerCompaniesController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\EngineerCompaniesController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\EngineerCompaniesController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\EngineerCompaniesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EngineerFarmersController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\EngineerFarmersController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\EngineerFarmersController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\EngineerFarmersController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\EngineerFarmersController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwHAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogingUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\LogingUsersController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\LogingUsersController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\LogingUsersController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\LogingUsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogingUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\LogingUserServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\LogingUserServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\LogingUserServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\LogingUserServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\BankServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\BankServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\BankServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\BankServices.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BanksController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\BanksController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\BanksController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\BanksController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\BanksController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAswBQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "GraduationApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\CompaniesController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFileServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IFileServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\IFileServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IFileServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\IFileServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\FileServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\FileServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\FileServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\FileServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RepresintorsController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\RepresintorsController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\RepresintorsController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\RepresintorsController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\RepresintorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Program.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Program.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Program.cs",
+              "RelativeToolTip": "GraduationApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FarmersController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\FarmersController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\FarmersController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\FarmersController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\FarmersController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LandsController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\LandsController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\LandsController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\LandsController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\LandsController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EquipmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\EquipmentsController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\EquipmentsController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\EquipmentsController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\EquipmentsController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAABcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EngineersController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\EngineersController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\EngineersController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\EngineersController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\EngineersController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FarmerEquipmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\FarmerEquipmentsController.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Controllers\\FarmerEquipmentsController.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Controllers\\FarmerEquipmentsController.cs",
+              "RelativeToolTip": "GraduationApi\\Controllers\\FarmerEquipmentsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RepresintorServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\RepresintorServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\RepresintorServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\RepresintorServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\RepresintorServices.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAYwGUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FarmerEquipmentServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\FarmerEquipmentServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\FarmerEquipmentServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\FarmerEquipmentServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\FarmerEquipmentServices.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAUwAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\ProductServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\ProductServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\ProductServices.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAQwFsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LandServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\LandServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\LandServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\LandServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\LandServices.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAYwGkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LandOrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\LandOrderServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\LandOrderServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\LandOrderServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\LandOrderServices.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAA+wA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FarmerServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\FarmerServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\FarmerServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\FarmerServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\FarmerServices.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwDkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EquipmentServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\EquipmentServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\EquipmentServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\EquipmentServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\EquipmentServices.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAADwv2AAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EngineerServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\EngineerServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\EngineerServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\EngineerServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\EngineerServices.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAYwFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CompanyServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\CompanyServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\CompanyServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\CompanyServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\CompanyServices.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAYwFgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IFarmerEquipmentServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IFarmerEquipmentServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\IFarmerEquipmentServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IFarmerEquipmentServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\IFarmerEquipmentServices.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IProductServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\IProductServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IProductServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\IProductServices.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ILandServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\ILandServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\ILandServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\ILandServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\ILandServices.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IFarmerServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IFarmerServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\IFarmerServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IFarmerServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\IFarmerServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IEngineerServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IEngineerServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\IEngineerServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IEngineerServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\IEngineerServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICompanyServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\ICompanyServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\ICompanyServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\ICompanyServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\ICompanyServices.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EquipmentDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EquipmentDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EquipmentDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EquipmentDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EquipmentDetailsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ViewFilesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ViewFilesViewModel.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\ViewFilesViewModel.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ViewFilesViewModel.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\ViewFilesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\ProductImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\ProductImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IRepresintorServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IRepresintorServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\IRepresintorServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IRepresintorServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\IRepresintorServices.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAsAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IEquipmentServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IEquipmentServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\IEquipmentServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IEquipmentServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\IEquipmentServices.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductOrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\ProductOrderServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Services\\ProductOrderServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Services\\ProductOrderServices.cs",
+              "RelativeToolTip": "GraduationApi\\Services\\ProductOrderServices.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IProductOrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IProductOrderServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\IProductOrderServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\IProductOrderServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\IProductOrderServices.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA4AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ILandOrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\ILandOrderServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\ILandOrderServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\ILandOrderServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\ILandOrderServices.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwA4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICompanyAccountServices.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\ICompanyAccountServices.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Interfaces\\ICompanyAccountServices.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Interfaces\\ICompanyAccountServices.cs",
+              "RelativeToolTip": "GraduationApi\\Interfaces\\ICompanyAccountServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LandOrderDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandOrderDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LandOrderDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandOrderDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LandOrderDetailsDto.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "FarmerEquipmentDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerEquipmentDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerEquipmentDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerEquipmentDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerEquipmentDetailsDto.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EquipmentImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EquipmentImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EquipmentImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EquipmentImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EquipmentImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductOrderDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductOrderDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\ProductOrderDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductOrderDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\ProductOrderDetailsDto.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAywBQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FarmerAccountDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerAccountDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerAccountDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerAccountDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerAccountDetailsDto.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProductOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductOrderDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\ProductOrderDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductOrderDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\ProductOrderDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RepresintorDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\RepresintorDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\RepresintorDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\RepresintorDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\RepresintorDetailsDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EngineerFarmerDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerFarmerDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerFarmerDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerFarmerDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerFarmerDetailsDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FarmerEquipment.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerEquipment.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerEquipment.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerEquipment.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerEquipment.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvyUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CompanyImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\CompanyImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\CompanyImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ProductOrderImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductOrderImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\ProductOrderImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductOrderImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\ProductOrderImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LandOrderImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandOrderImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LandOrderImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandOrderImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LandOrderImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FarmerEquipmentImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerEquipmentImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerEquipmentImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerEquipmentImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerEquipmentImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RepresintorImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\RepresintorImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\RepresintorImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\RepresintorImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\RepresintorImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "FarmerImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EngineerImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LandImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandImageDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LandImageDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandImageDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LandImageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20240411233554_adding the data anotations into all models to make them all required.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Migrations\\20240411233554_adding the data anotations into all models to make them all required.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Migrations\\20240411233554_adding the data anotations into all models to make them all required.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Migrations\\20240411233554_adding the data anotations into all models to make them all required.cs",
+              "RelativeToolTip": "GraduationApi\\Migrations\\20240411233554_adding the data anotations into all models to make them all required.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "RepresintorDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\RepresintorDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\RepresintorDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\RepresintorDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\RepresintorDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Represintor.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Represintor.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\Represintor.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Represintor.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\Represintor.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ProductOrder.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductOrder.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\ProductOrder.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductOrder.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\ProductOrder.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\ProductDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA8wBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ProductDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\ProductDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\ProductDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\ProductDetailsDto.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA8wCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Product.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\Product.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LogingUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LogingUserDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LogingUserDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LogingUserDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LogingUserDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "LogingUser.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LogingUser.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LogingUser.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LogingUser.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LogingUser.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "LandDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LandDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LandDto.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "FarmerDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "LandOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandOrderDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LandOrderDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandOrderDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LandOrderDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "LandOrder.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandOrder.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LandOrder.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandOrder.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LandOrder.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwCUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "LandDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\LandDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\LandDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\LandDetailsDto.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA8wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Land.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Land.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\Land.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Land.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\Land.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "FileUploadModel.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FileUploadModel.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FileUploadModel.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FileUploadModel.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FileUploadModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "FileListModel.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FileListModel.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FileListModel.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FileListModel.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FileListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "FileInformation.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FileInformation.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FileInformation.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FileInformation.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FileInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "FarmerEquipmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerEquipmentDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerEquipmentDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerEquipmentDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerEquipmentDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "FarmerAccountDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerAccountDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerAccountDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerAccountDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerAccountDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "FarmerAccount.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerAccount.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\FarmerAccount.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\FarmerAccount.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\FarmerAccount.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwCAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Farmer.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Farmer.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\Farmer.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Farmer.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\Farmer.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "EquipmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EquipmentDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EquipmentDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EquipmentDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EquipmentDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\Equipment.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Equipment.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\Equipment.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "EngineerFarmerDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerFarmerDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerFarmerDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerFarmerDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerFarmerDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "EngineerFarmer.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerFarmer.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerFarmer.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerFarmer.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerFarmer.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "EngineerDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA+wBkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "EngineerCompanyDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerCompanyDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerCompanyDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerCompanyDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerCompanyDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "EngineerCompanyDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerCompanyDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerCompanyDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerCompanyDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerCompanyDetailsDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "EngineerCompany.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerCompany.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerCompany.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerCompany.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerCompany.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "EngineerAccountDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerAccountDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerAccountDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerAccountDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerAccountDto.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "CompanyAccountDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyAccountDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\CompanyAccountDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyAccountDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\CompanyAccountDetailsDto.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "CompanyAccountDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyAccountDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\CompanyAccountDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyAccountDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\CompanyAccountDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "CompanyDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\CompanyDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\CompanyDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Engineer.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Engineer.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\Engineer.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Engineer.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\Engineer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "EngineerAccount.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerAccount.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerAccount.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerAccount.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerAccount.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "EngineerAccountDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerAccountDetailsDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\EngineerAccountDetailsDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\EngineerAccountDetailsDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\EngineerAccountDetailsDto.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "CompanyAccount.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyAccount.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\CompanyAccount.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\CompanyAccount.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\CompanyAccount.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAzwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Company.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\Company.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "BankDto.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\BankDto.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\BankDto.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\BankDto.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\BankDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Bank.cs",
+              "RelativeDocumentMoniker": "GraduationApi\\Models\\Bank.cs",
+              "ToolTip": "C:\\Users\\saras\\Desktop\\repo\\Graduation_Project\\GraduationApi\\GraduationApi\\Models\\Bank.cs",
+              "RelativeToolTip": "GraduationApi\\Models\\Bank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T10:46:27.999Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2195 @@
+[
+  {
+    "ContainingType": "GraduationApi.Controllers.BanksController",
+    "Method": "AddBank",
+    "RelativePath": "api/Banks/AddBank",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bankDto",
+        "Type": "GraduationApi.Models.BankDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.BanksController",
+    "Method": "DeleteBank",
+    "RelativePath": "api/Banks/DeleteBank/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.BanksController",
+    "Method": "GetAllBanks",
+    "RelativePath": "api/Banks/GetAllBanks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.BanksController",
+    "Method": "GetBankById",
+    "RelativePath": "api/Banks/GetBankById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.BanksController",
+    "Method": "GetBankByName",
+    "RelativePath": "api/Banks/GetBankByName/{BankName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.BanksController",
+    "Method": "UpdateBank",
+    "RelativePath": "api/Banks/UpdateBank/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bankDto",
+        "Type": "GraduationApi.Models.BankDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompaniesController",
+    "Method": "AddCompany",
+    "RelativePath": "api/Companies/AddCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyDto",
+        "Type": "GraduationApi.Models.CompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompaniesController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/Companies/DeleteCompany/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompaniesController",
+    "Method": "GetAllCompanies",
+    "RelativePath": "api/Companies/GetAllCompanies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompaniesController",
+    "Method": "GetCompanyById",
+    "RelativePath": "api/Companies/GetCompanyById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompaniesController",
+    "Method": "GetCompanyByName",
+    "RelativePath": "api/Companies/GetCompanyByName/{CompanyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompaniesController",
+    "Method": "UpdateCompany",
+    "RelativePath": "api/Companies/UpdateCompany/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "companyDto",
+        "Type": "GraduationApi.Models.CompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "AddCompanyAccount",
+    "RelativePath": "api/CompanyAccounts/AddCompanyAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.CompanyAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "DeleteCompanyAccount",
+    "RelativePath": "api/CompanyAccounts/DeleteCompanyAccount/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "GetAllCompanyAccounts",
+    "RelativePath": "api/CompanyAccounts/GetAllCompanyAccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "GetCompanyAccountById",
+    "RelativePath": "api/CompanyAccounts/GetCompanyAccountById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "GetCompanyAccountsByBankId",
+    "RelativePath": "api/CompanyAccounts/GetCompanyAccountsByBankId/{BankId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "GetCompanyAccountsByBankName",
+    "RelativePath": "api/CompanyAccounts/GetCompanyAccountsByBankName/{BankName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "GetCompanyAccountsByCompanyId",
+    "RelativePath": "api/CompanyAccounts/GetCompanyAccountsByCompanyId/{CompanyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "GetCompanyAccountsByCompanyName",
+    "RelativePath": "api/CompanyAccounts/GetCompanyAccountsByCompanyName/{CompanyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.CompanyAccountsController",
+    "Method": "UpdateCompanyAccount",
+    "RelativePath": "api/CompanyAccounts/UpdateCompanyAccount/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.CompanyAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "AddEngineerAccount",
+    "RelativePath": "api/EngineerAccounts/AddEngineerAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.EngineerAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "DeleteEngineerAccount",
+    "RelativePath": "api/EngineerAccounts/DeleteEngineerAccount/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "GetAllEngineerAccounts",
+    "RelativePath": "api/EngineerAccounts/GetAllEngineerAccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "GetEngineerAccountById",
+    "RelativePath": "api/EngineerAccounts/GetEngineerAccountById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "GetEngineerAccountsByBankId",
+    "RelativePath": "api/EngineerAccounts/GetEngineerAccountsByBankId/{BankId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "GetEngineerAccountsByBankName",
+    "RelativePath": "api/EngineerAccounts/GetEngineerAccountsByBankName/{BankName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "GetEngineerAccountsByEngineerId",
+    "RelativePath": "api/EngineerAccounts/GetEngineerAccountsByEngineerId/{EngineerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EngineerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "GetEngineerAccountsByEngineerName",
+    "RelativePath": "api/EngineerAccounts/GetEngineerAccountsByEngineerName/{EngineerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EngineerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerAccountsController",
+    "Method": "UpdateEngineerAccount",
+    "RelativePath": "api/EngineerAccounts/UpdateEngineerAccount/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.EngineerAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "AddEngineerCompany",
+    "RelativePath": "api/EngineerCompanies/AddEngineerCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.EngineerCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "DeleteEngineerCompany",
+    "RelativePath": "api/EngineerCompanies/DeleteEngineerCompany/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "GetAllEngineerCompanies",
+    "RelativePath": "api/EngineerCompanies/GetAllEngineerCompanies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "GetEngineerCompanyById",
+    "RelativePath": "api/EngineerCompanies/GetEngineerCompanyById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "GetEngineerCompanysByCompanyId",
+    "RelativePath": "api/EngineerCompanies/GetEngineerCompanysByCompanyId/{CompanyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "GetEngineerCompanysByCompanyName",
+    "RelativePath": "api/EngineerCompanies/GetEngineerCompanysByCompanyName/{CompanyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "GetEngineerCompanysByEngineerId",
+    "RelativePath": "api/EngineerCompanies/GetEngineerCompanysByEngineerId/{EngineerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EngineerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "GetEngineerCompanysByEngineerName",
+    "RelativePath": "api/EngineerCompanies/GetEngineerCompanysByEngineerName/{EngineerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EngineerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerCompaniesController",
+    "Method": "UpdateEngineerCompany",
+    "RelativePath": "api/EngineerCompanies/UpdateEngineerCompany/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.EngineerCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "AddEngineerFarmer",
+    "RelativePath": "api/EngineerFarmers/AddEngineerFarmer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.EngineerFarmerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "DeleteEngineerFarmer",
+    "RelativePath": "api/EngineerFarmers/DeleteEngineerFarmer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "GetAllEngineerFarmers",
+    "RelativePath": "api/EngineerFarmers/GetAllEngineerFarmers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "GetEngineerFarmerById",
+    "RelativePath": "api/EngineerFarmers/GetEngineerFarmerById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "GetEngineerFarmersByEngineerId",
+    "RelativePath": "api/EngineerFarmers/GetEngineerFarmersByEngineerId/{EngineerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EngineerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "GetEngineerFarmersByEngineerName",
+    "RelativePath": "api/EngineerFarmers/GetEngineerFarmersByEngineerName/{EngineerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EngineerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "GetEngineerFarmersByFarmerId",
+    "RelativePath": "api/EngineerFarmers/GetEngineerFarmersByFarmerId/{FarmerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "GetEngineerFarmersByFarmerName",
+    "RelativePath": "api/EngineerFarmers/GetEngineerFarmersByFarmerName/{FarmerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineerFarmersController",
+    "Method": "UpdateEngineerFarmer",
+    "RelativePath": "api/EngineerFarmers/UpdateEngineerFarmer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.EngineerFarmerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineersController",
+    "Method": "AddEngineer",
+    "RelativePath": "api/Engineers/AddEngineer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EngineerDto",
+        "Type": "GraduationApi.Models.EngineerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineersController",
+    "Method": "DeleteEngineer",
+    "RelativePath": "api/Engineers/DeleteEngineer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineersController",
+    "Method": "GetAllEngineers",
+    "RelativePath": "api/Engineers/GetAllEngineers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineersController",
+    "Method": "GetEngineerById",
+    "RelativePath": "api/Engineers/GetEngineerById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineersController",
+    "Method": "GetEngineerByName",
+    "RelativePath": "api/Engineers/GetEngineerByName/{EngineerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EngineerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EngineersController",
+    "Method": "UpdateEngineer",
+    "RelativePath": "api/Engineers/UpdateEngineer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "EngineerDto",
+        "Type": "GraduationApi.Models.EngineerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EquipmentsController",
+    "Method": "AddEquipment",
+    "RelativePath": "api/Equipments/AddEquipment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EquipmentDto",
+        "Type": "GraduationApi.Models.EquipmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EquipmentsController",
+    "Method": "DeleteEquipment",
+    "RelativePath": "api/Equipments/DeleteEquipment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EquipmentsController",
+    "Method": "GetAllEquipments",
+    "RelativePath": "api/Equipments/GetAllEquipments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EquipmentsController",
+    "Method": "GetEquipmentById",
+    "RelativePath": "api/Equipments/GetEquipmentById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EquipmentsController",
+    "Method": "GetEquipmentsByFarmerId",
+    "RelativePath": "api/Equipments/GetEquipmentsByFarmerId/{FarmerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EquipmentsController",
+    "Method": "GetEquipmentsByFarmerName",
+    "RelativePath": "api/Equipments/GetEquipmentsByFarmerName/{FarmerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.EquipmentsController",
+    "Method": "UpdateEquipment",
+    "RelativePath": "api/Equipments/UpdateEquipment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "EquipmentDto",
+        "Type": "GraduationApi.Models.EquipmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "AddFarmerAccount",
+    "RelativePath": "api/FarmerAccounts/AddFarmerAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.FarmerAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "DeleteFarmerAccount",
+    "RelativePath": "api/FarmerAccounts/DeleteFarmerAccount/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "GetAllFarmerAccounts",
+    "RelativePath": "api/FarmerAccounts/GetAllFarmerAccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "GetFarmerAccountById",
+    "RelativePath": "api/FarmerAccounts/GetFarmerAccountById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "GetFarmerAccountsByBankId",
+    "RelativePath": "api/FarmerAccounts/GetFarmerAccountsByBankId/{BankId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "GetFarmerAccountsByBankName",
+    "RelativePath": "api/FarmerAccounts/GetFarmerAccountsByBankName/{BankName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "GetFarmerAccountsByFarmerId",
+    "RelativePath": "api/FarmerAccounts/GetFarmerAccountsByFarmerId/{FarmerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "GetFarmerAccountsByFarmerName",
+    "RelativePath": "api/FarmerAccounts/GetFarmerAccountsByFarmerName/{FarmerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerAccountsController",
+    "Method": "UpdateFarmerAccount",
+    "RelativePath": "api/FarmerAccounts/UpdateFarmerAccount/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.FarmerAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "AddFarmerEquipment",
+    "RelativePath": "api/FarmerEquipments/AddFarmerEquipment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.FarmerEquipmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "DeleteFarmerEquipment",
+    "RelativePath": "api/FarmerEquipments/DeleteFarmerEquipment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "GetAllFarmerEquipments",
+    "RelativePath": "api/FarmerEquipments/GetAllFarmerEquipments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "GetFarmerEquipmentById",
+    "RelativePath": "api/FarmerEquipments/GetFarmerEquipmentById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "GetFarmerEquipmentsByEquipmentId",
+    "RelativePath": "api/FarmerEquipments/GetFarmerEquipmentsByEquipmentId/{EquipmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EquipmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "GetFarmerEquipmentsByEquipmentName",
+    "RelativePath": "api/FarmerEquipments/GetFarmerEquipmentsByEquipmentName/{EquipmentName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EquipmentName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "GetFarmerEquipmentsByFarmerId",
+    "RelativePath": "api/FarmerEquipments/GetFarmerEquipmentsByFarmerId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "GetFarmerEquipmentsByFarmerName",
+    "RelativePath": "api/FarmerEquipments/GetFarmerEquipmentsByFarmerName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmerEquipmentsController",
+    "Method": "UpdateFarmerEquipment",
+    "RelativePath": "api/FarmerEquipments/UpdateFarmerEquipment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.FarmerEquipmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmersController",
+    "Method": "AddFarmer",
+    "RelativePath": "api/Farmers/AddFarmer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "farmerDto",
+        "Type": "GraduationApi.Models.FarmerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmersController",
+    "Method": "DeleteFarmer",
+    "RelativePath": "api/Farmers/DeleteFarmer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmersController",
+    "Method": "GetAllFarmers",
+    "RelativePath": "api/Farmers/GetAllFarmers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmersController",
+    "Method": "GetFarmerById",
+    "RelativePath": "api/Farmers/GetFarmerById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmersController",
+    "Method": "GetFarmerByName",
+    "RelativePath": "api/Farmers/GetFarmerByName/{FarmerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.FarmersController",
+    "Method": "UpdateFarmer",
+    "RelativePath": "api/Farmers/UpdateFarmer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "farmerDto",
+        "Type": "GraduationApi.Models.FarmerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SRM_API.Controllers.FilesController",
+    "Method": "GetFilesByIdAndModel",
+    "RelativePath": "api/files/GetFilesByIdAndModel/{modelType}/{modelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "modelType",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GraduationApi.Models.FileInformation, GraduationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SRM_API.Controllers.FilesController",
+    "Method": "GetFilesByModelType",
+    "RelativePath": "api/files/GetFilesByModelType/{modelType}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelType",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GraduationApi.Models.FileInformation, GraduationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SRM_API.Controllers.FilesController",
+    "Method": "GetLatestFileNames",
+    "RelativePath": "api/files/GetLatestFileNames/{modelType}/{modelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "modelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GraduationApi.Models.ViewFilesViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SRM_API.Controllers.FilesController",
+    "Method": "UploadFile",
+    "RelativePath": "api/files/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "AddLandOrder",
+    "RelativePath": "api/LandOrders/AddLandOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.LandOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "DeleteLandOrder",
+    "RelativePath": "api/LandOrders/DeleteLandOrder/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "GetAllLandOrders",
+    "RelativePath": "api/LandOrders/GetAllLandOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "GetLandOrderById",
+    "RelativePath": "api/LandOrders/GetLandOrderById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "GetOrdersByCompanyId",
+    "RelativePath": "api/LandOrders/GetOrdersByCompanyId/{CompanyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "GetOrdersByCompanyName",
+    "RelativePath": "api/LandOrders/GetOrdersByCompanyName/{CompanyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "GetOrdersByFarmerId",
+    "RelativePath": "api/LandOrders/GetOrdersByFarmerId/{FarmerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "GetOrdersByFarmerName",
+    "RelativePath": "api/LandOrders/GetOrdersByFarmerName/{FarmerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandOrdersController",
+    "Method": "UpdateLandOrder",
+    "RelativePath": "api/LandOrders/UpdateLandOrder/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.LandOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandsController",
+    "Method": "AddLand",
+    "RelativePath": "api/Lands/AddLand",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LandDto",
+        "Type": "GraduationApi.Models.LandDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandsController",
+    "Method": "DeleteLand",
+    "RelativePath": "api/Lands/DeleteLand/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandsController",
+    "Method": "GetAllLands",
+    "RelativePath": "api/Lands/GetAllLands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandsController",
+    "Method": "GetLandById",
+    "RelativePath": "api/Lands/GetLandById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandsController",
+    "Method": "GetLandsByFarmerId",
+    "RelativePath": "api/Lands/GetLandsByFarmerId/{FarmerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandsController",
+    "Method": "GetLandsByFarmerName",
+    "RelativePath": "api/Lands/GetLandsByFarmerName/{FarmerName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FarmerName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LandsController",
+    "Method": "UpdateLand",
+    "RelativePath": "api/Lands/UpdateLand/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "LandDto",
+        "Type": "GraduationApi.Models.LandDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LogingUsersController",
+    "Method": "AddLogingUser",
+    "RelativePath": "api/LogingUsers/AddLogingUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LogingUserDto",
+        "Type": "GraduationApi.Models.LogingUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LogingUsersController",
+    "Method": "DeleteLogingUser",
+    "RelativePath": "api/LogingUsers/DeleteLogingUser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LogingUsersController",
+    "Method": "GetAllLogingUsers",
+    "RelativePath": "api/LogingUsers/GetAllLogingUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LogingUsersController",
+    "Method": "GetLogingUserByEmail",
+    "RelativePath": "api/LogingUsers/GetLogingUserByEmail/{LogingUserEmail}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LogingUserEmail",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LogingUsersController",
+    "Method": "GetLogingUserById",
+    "RelativePath": "api/LogingUsers/GetLogingUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.LogingUsersController",
+    "Method": "UpdateLogingUser",
+    "RelativePath": "api/LogingUsers/UpdateLogingUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "LogingUserDto",
+        "Type": "GraduationApi.Models.LogingUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "AddProductOrder",
+    "RelativePath": "api/ProductOrders/AddProductOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.ProductOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "DeleteProductOrder",
+    "RelativePath": "api/ProductOrders/DeleteProductOrder/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "GetAllProductOrders",
+    "RelativePath": "api/ProductOrders/GetAllProductOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "GetProductOrderById",
+    "RelativePath": "api/ProductOrders/GetProductOrderById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "GetProductsByCompanyId",
+    "RelativePath": "api/ProductOrders/GetProductsByCompanyId/{CompanyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "GetProductsByCompanyName",
+    "RelativePath": "api/ProductOrders/GetProductsByCompanyName/{CompanyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "GetProductsByFarmerId",
+    "RelativePath": "api/ProductOrders/GetProductsByFarmerId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "GetProductsByFarmerName",
+    "RelativePath": "api/ProductOrders/GetProductsByFarmerName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductOrdersController",
+    "Method": "UpdateProductOrder",
+    "RelativePath": "api/ProductOrders/UpdateProductOrder/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GraduationApi.Models.ProductOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductsController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Products/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductDto",
+        "Type": "GraduationApi.Models.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductsController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Products/DeleteProduct/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductsController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Products/GetAllProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductsController",
+    "Method": "GetProductById",
+    "RelativePath": "api/Products/GetProductById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductsController",
+    "Method": "GetProductByName",
+    "RelativePath": "api/Products/GetProductByName/{ProductName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductsController",
+    "Method": "GetProductsByFarmerId",
+    "RelativePath": "api/Products/GetProductsByFarmerId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductsController",
+    "Method": "GetProductsByFarmerName",
+    "RelativePath": "api/Products/GetProductsByFarmerName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.ProductsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products/UpdateProduct/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductDto",
+        "Type": "GraduationApi.Models.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.RepresintorsController",
+    "Method": "AddRepresintor",
+    "RelativePath": "api/Represintors/AddRepresintor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "represintorDto",
+        "Type": "GraduationApi.Models.RepresintorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.RepresintorsController",
+    "Method": "DeleteRepresintor",
+    "RelativePath": "api/Represintors/DeleteRepresintor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.RepresintorsController",
+    "Method": "GetAllRepresintors",
+    "RelativePath": "api/Represintors/GetAllRepresintors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.RepresintorsController",
+    "Method": "GetRepresintorById",
+    "RelativePath": "api/Represintors/GetRepresintorById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.RepresintorsController",
+    "Method": "GetRepresintorByName",
+    "RelativePath": "api/Represintors/GetRepresintorByName/{RepresintorName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RepresintorName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.RepresintorsController",
+    "Method": "GetRepresintorsByCompanyId",
+    "RelativePath": "api/Represintors/GetRepresintorsByCompanyId/{CompanyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.RepresintorsController",
+    "Method": "GetRepresintorsByCompanyName",
+    "RelativePath": "api/Represintors/GetRepresintorsByCompanyName/{CompanyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraduationApi.Controllers.RepresintorsController",
+    "Method": "UpdateRepresintor",
+    "RelativePath": "api/Represintors/UpdateRepresintor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "represintorDto",
+        "Type": "GraduationApi.Models.RepresintorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

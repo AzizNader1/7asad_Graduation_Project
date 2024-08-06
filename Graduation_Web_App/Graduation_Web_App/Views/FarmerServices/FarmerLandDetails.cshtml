@@ -1,0 +1,568 @@
+﻿﻿@using Graduation_Web_App.Models;
+@model FarmerLandDetailsDto;
+@{
+    ViewData["Title"] = "الصفحه الرئيسيه للمزارع";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض تفاصيل الارض الزراعيه</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white
+        }
+
+        header {
+            background: #fff;
+            padding: 10px 0;
+            border-bottom: 2px solid #198754
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        nav {
+            flex: 1;
+            text-align: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+            .nav-links li {
+                margin: 0 15px;
+            }
+
+            .nav-links a {
+                color: #198754;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+                .nav-links a.active {
+                    border-bottom: 2px solid white;
+                }
+
+        .login {
+            font-size: 18px;
+        }
+
+            .login a {
+                color: #198754;
+                text-decoration: none;
+            }
+
+        .LastLink {
+            position: absolute;
+            right: 90%;
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            top: 30px
+        }
+
+        .footer {
+            background-color: #198754;
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+            margin-top: 50px
+        }
+
+            .footer .container {
+                max-width: 1200px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .footer .column {
+                flex: 1;
+                min-width: 200px;
+                padding: 10px;
+            }
+
+                .footer .column img {
+                    max-width: 150px;
+                    margin-bottom: 10px;
+                }
+
+            .footer .social-icons a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 24px;
+            }
+
+            .footer .links a {
+                display: block;
+                color: white;
+                text-decoration: none;
+                margin: 5px 0;
+            }
+
+                .footer .links a:hover {
+                    text-decoration: underline;
+                }
+
+            .footer .contact-info p {
+                margin: 5px 0;
+            }
+
+            .footer .copy {
+                margin-top: 40px;
+                font-size: 14px;
+                border-top-style: solid;
+                border-top-width: 2px;
+                border-block-color: #fff;
+            }
+
+                .footer .copy p {
+                    margin-top: 20px;
+                }
+
+        main {
+            padding: 20px;
+        }
+
+        .engineer-details {
+            display: flex;
+            border: solid 3px #198754;
+            border-radius: 50px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 75%;
+        }
+
+        .engineer-image {
+            border-radius: 50px;
+            border: solid 3px #198754;
+            width: 350px;
+            height: 300px;
+            margin-right: 25px;
+            margin-bottom: 26px;
+        }
+
+        .details-frame {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .detail {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+            .detail .label {
+                font-weight: bold;
+            }
+
+        .button {
+            display: inline-block;
+            background: #f7c35f;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 40px;
+            padding: 10px 20px;
+            margin: 5px 0;
+            text-align: center;
+            color: #000;
+            text-decoration: none;
+            border: 2px solid #000;
+            box-shadow: 8px 1px 7px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .engineer-description {
+            margin-top: 20px;
+        }
+
+            .engineer-description .description {
+                border-radius: 50px;
+                padding: 20px;
+                font-size: 20px;
+                border: solid 3px #198754;
+            }
+
+        .button-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 102px;
+            align-items: center; /* Ensure buttons are vertically aligned */
+            margin-top: 10px;
+            gap: 10px; /* Adjust gap as needed */
+        }
+
+        .custom-button {
+            width: 185px; /* Adjust the width as needed */
+        }
+
+        .section-title {
+            margin-right: 25%;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: #198754;
+            transform: scale(1.02);
+            text-decoration: none;
+        }
+
+        media (max-width: 768px) {
+            .engineer-details
+
+        {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        }
+        /* modal design */
+        .FormContent {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-container {
+            background-color: white;
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            box-shadow: 5px 5px 15px black;
+            border-radius: 15px;
+            text-align: center;
+            margin: 50px auto
+        }
+
+        .profile-title {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #198754;
+        }
+
+        .profile-section {
+            margin-bottom: 20px;
+            position: relative;
+            padding: 10px;
+            border: 2px solid #198754;
+            border-radius: 15px;
+            text-align: right;
+        }
+
+            .profile-section label {
+                position: absolute;
+                top: -12px;
+                right: 10px;
+                background-color: white;
+                padding: 0 5px;
+                font-weight: bold;
+                font-size: 16px;
+                color: #198754;
+            }
+
+            .profile-section input, select {
+                width: 100%;
+                padding: 10px;
+                border: 2px solid #198754;
+                border-radius: 20px;
+                font-size: 18px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                background-color: white;
+                box-shadow: 2px 2px 2px #198754;
+                outline: none;
+            }
+
+        .profile-buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+            .profile-buttons .btn {
+                padding: 10px 20px;
+                color: #fff;
+                transition: background-color 0.3s ease;
+                border: 2px solid #198754;
+                font-size: 25px;
+                background-color: #198754;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+        .btn:hover {
+            background-color: white;
+            color: #198754;
+            transform: scale(1.02);
+            text-decoration: none
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="~/7asadLogo.jpg" alt="Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/FarmerServices/FarmerHomePage" class="active">الرئيسية</a></li>
+                    <li><a href="/FarmerServices/FarmerDetails/@ViewBag.FarmerId">البيانات الشخصيه</a></li>
+                    <li><a href="/FarmerServices/FarmerProducts">محاصيلي الزراعيه</a></li>
+                    <li><a href="/FarmerServices/FarmerEquipments">معداتي الزراعيه</a></li>
+                    <li><a href="/FarmerServices/FarmerLands">اراضي الزراعيه</a></li>
+                    <li><a href="/FarmerServices/FarmerHistory">عروضي</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="/SharedServices/Logout"><i class="bi bi-person"></i> تسجيل الخروج</a>
+            </div>
+        </div>
+    </header>
+    @if (TempData["EditFarmerLandError"] != null)
+    {
+        <div class="alert alert-danger align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;">@TempData["EditFarmerLandError"]</p>
+        </div>
+    }
+    @if (TempData["EditFarmerLandSuccess"] != null)
+    {
+        <div class="alert alert-success align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;">@TempData["EditFarmerLandSuccess"]</p>
+        </div>
+    }
+    <main>
+        <section class="engineer-details">
+            <div class="details-frame">
+                <img class="engineer-image" src="~/LandImages/@Model.LandDetails.LandId/@Model.LandImageUrl" alt="Engineer Image" />
+                <div class="button-container">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success custom-button" data-bs-toggle="modal" data-bs-target="#LandEditModal">
+                        تعديل
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="LandEditModal" tabindex="-1" aria-labelledby="LandModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="FormContent">
+                                    <form method="post" asp-action="EditMyLand" class="profile-container" enctype="multipart/form-data" id="LandEditForm">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                        <div class="profile-section">
+                                            <label for="land-area" class="label"> -- قيراط مساحة الأرض </label>
+                                            <input asp-for="LandDetails.LandSize" value="@Model.LandDetails.LandSize" >
+                                            <span asp-validation-for="LandDetails.LandSize"></span>
+                                        </div>
+                                        <div class="profile-section">
+                                            <label for="land-address" class="label">عنوان الأرض</label>
+                                            <input asp-for="LandDetails.LandLocation" value="@Model.LandDetails.LandLocation">
+                                            <span asp-validation-for="LandDetails.LandLocation"></span>
+                                        </div>
+
+                                        <div class="profile-section">
+                                            <label for="land-description" class="label">أضف وصف للأرض</label>
+                                            <input asp-for="LandDetails.LandDescribtion" class="form-control" value="@Model.LandDetails.LandDescribtion">
+                                            <span asp-validation-for="LandDetails.LandDescribtion"></span>
+                                        </div>
+
+                                        <div class="profile-section">
+                                            <label for="suitable-crops" class="label">نوع التربه الزراعيه</label>
+                                            <select id="suitable-crops" name="LandType" asp-items="@Html.GetEnumSelectList(typeof(LandTypes))">
+                                                <option value="@Model.LandDetails.LandType">-- اختار نوع التربه --</option>
+                                            </select>sss
+                                            <span asp-validation-for="LandDetails.LandType"></span>
+                                        </div>
+
+                                        <div class="profile-section">
+                                            <label for="land-image" class="label">أضف صورة الأرض</label>
+                                            <input type="file" name="LandImage">
+                                        </div>
+
+                                        <div class="form-group" hidden>
+                                            <label asp-for="LandDetails.FarmerId" class="control-label"></label>
+                                            <input asp-for="LandDetails.FarmerId" class="form-control" value="@Model.LandDetails.FarmerId" hidden />
+                                        </div>
+                                        <div class="form-group" hidden>
+                                            <label asp-for="LandDetails.LandId" class="control-label"></label>
+                                            <input asp-for="LandDetails.LandId" class="form-control" value="@Model.LandDetails.LandId" hidden />
+                                        </div>
+                                        <div class="profile-buttons">
+
+                                            <button type="submit" class="btn btn-success" onsubmit="EditLand()">تعديل</button>
+                                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">غلق النافذه</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   @*  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#LandDeleteModal">
+                        حذف
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="LandDeleteModal" tabindex="-1" aria-labelledby="LandModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="FormContent">
+                                    <form method="post" asp-action="DeleteMyLand" class="profile-container" id="LandDeleteForm">
+                                        <input hidden name="LandId" value="@Model.LandDetails.LandId" />
+                                        <p>هل ترغب حقا في حذف هذه الارض ؟؟؟</p>
+                                        <div class="profile-buttons">
+
+                                            <button type="submit" class="btn btn-success" onsubmit="DeleteLand()">حذف</button>
+                                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">غلق النافذه</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div> *@
+                    <a asp-action="FarmerLands" asp-controller="FarmerServices" class="btn btn-success custom-button">رجوع</a>
+                </div>
+            </div>
+            <div class="details-frame">
+                <h2 class="section-title">التفاصيل</h2>
+                <div class="detail">
+                    <span class="label">حجم الارض</span>
+                    <span class="value">@Model.LandDetails.LandSize قيراط</span>
+                </div>
+                <div class="detail">
+                    <span class="label">مكان الارض</span>
+                    <span class="value">@Model.LandDetails.LandLocation</span>
+                </div>
+                <div class="detail">
+                    <span class="label">نوع التربه الزراعيه</span>
+                    <span class="value">@Model.LandDetails.LandType</span>
+                </div>
+
+                <section class="engineer-description">
+                    <h2 class="section-title">وصف للارض</h2>
+                    <p class="description">
+                        @Model.LandDetails.LandDescribtion
+                    </p>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="column">
+                <img src="~/7asadLogo.svg" alt="Logo">
+                <p>حصاد</p>
+                <div class="contact-info">
+                    <p>Asiut Square Mall – First Tourist Village</p>
+                    <p>6 October, Asiut – Egypt</p>
+                    <p>info@tasd.net</p>
+                    <p>01226393057</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>روابط سريعة</h3>
+                <div class="links">
+                    <a href="#">الرئيسية</a>
+                    <a href="#">الخدمات</a>
+                    <a href="#">تكنولوجيا</a>
+                    <a href="#">المدونة</a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>تابعنا</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2024 جميع الحقوق محفوظة لتطبيق حصاد</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        function EditLand() {
+            var formData = $("#LandEditForm").serialize();
+
+            $.ajax({
+                url: "/FarmerServices/EditMyLand", // Update the URL to your POST endpoint
+                type: "POST",
+                data: formData,
+                success: function (response) {
+                    $("#LandEditModal").modal("hide");
+                    alert("Your request done successfully!");
+                },
+                error: function (error) {
+                    alert("An error occurred. Please try again.");
+                }
+            });
+        });
+
+        // function DeleteLand() {
+        //     var formData = $("#LandLandForm").serialize();
+
+        //     $.ajax({
+        //         url: "/FarmerServices/DeleteMyLand", // Update the URL to your POST endpoint
+        //         type: "POST",
+        //         data: formData,
+        //         success: function (response) {
+        //             $("#LandDeleteModal").modal("hide");
+        //             alert("Your request done successfully!");
+        //         },
+        //         error: function (error) {
+        //             alert("An error occurred. Please try again.");
+        //         }
+        //     });
+        // });
+    </script>
+</body>
+</html>

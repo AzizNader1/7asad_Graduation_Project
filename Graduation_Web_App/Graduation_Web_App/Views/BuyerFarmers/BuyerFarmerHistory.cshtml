@@ -1,0 +1,494 @@
+﻿@model BuyerFarmerAppliedOffersDto
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        header {
+            background: #fff;
+            padding: 10px 0;
+            border-bottom: 2px solid #198754;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        nav {
+            flex: 1;
+            text-align: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+            .nav-links li {
+                margin: 0 15px;
+            }
+
+            .nav-links a {
+                color: #198754;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+                .nav-links a.active {
+                    border-bottom: 2px solid white;
+                }
+
+        .login {
+            font-size: 18px;
+        }
+
+            .login a {
+                color: #198754;
+                text-decoration: none;
+            }
+
+        .footer {
+            background-color: #198754;
+            padding: 20px 0;
+            color: white;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+            .footer .container {
+                max-width: 1200px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .footer .column {
+                flex: 1;
+                min-width: 200px;
+                padding: 10px;
+            }
+
+                .footer .column img {
+                    max-width: 150px;
+                    margin-bottom: 10px;
+                }
+
+            .footer .social-icons a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 24px;
+            }
+
+            .footer .links a {
+                display: block;
+                color: white;
+                text-decoration: none;
+                margin: 5px 0;
+            }
+
+                .footer .links a:hover {
+                    text-decoration: underline;
+                }
+
+            .footer .contact-info p {
+                margin: 5px 0;
+            }
+
+            .footer .copy {
+                margin-top: 40px;
+                font-size: 14px;
+                border-top-style: solid;
+                border-top-width: 2px;
+                border-block-color: #fff;
+            }
+
+                .footer .copy p {
+                    margin-top: 20px;
+                }
+
+        .btn:hover {
+            background-color: white;
+            color: #198754;
+            transform: scale(1.02);
+            text-decoration: none;
+        }
+
+        .section-buttons {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+            .section-buttons button {
+                margin: 0 10px;
+            }
+
+        .sub-buttons {
+            display: none;
+            justify-content: center;
+            margin: 20px;
+        }
+
+            .sub-buttons button {
+                margin: 0 10px;
+            }
+
+        .tables {
+            display: none;
+        }
+
+        .active {
+            display: block !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="~/7asadLogo.jpg" alt="Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/BuyerFarmers/BuyerFarmerHomePage">الرئسيه</a></li>
+                    <li><a href="/BuyerFarmers/BuyerFarmerProfile/@ViewBag.BuyerFarmerId">الحساب الشخصي</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <a href="/SharedServices/Logout"><i class="bi bi-person"></i> تسجيل الخروج</a>
+            </div>
+        </div>
+    </header>
+    @if (TempData["CancleRequestResultSuccess"] != null)
+    {
+        <div class="alert alert-success align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;">@TempData["CancleRequestResultSuccess"]</p>
+        </div>
+    }
+    @if (TempData["CancleRequestResultError"] != null)
+    {
+        <div class="alert alert-danger align-content-center" role="alert">
+            <p style="display:flex;justify-content:center;font-size:25px;">@TempData["CancleRequestResultError"]</p>
+        </div>
+    }
+    <div class="section-buttons">
+        <button class="btn btn-success" onclick="toggleSubButtons('land')">العروض المقدمه لتاجير الاراضى</button>
+        <button class="btn btn-success" onclick="toggleSubButtons('product')">العروض المقدمه لشراء محاصيل</button>
+    </div>
+
+    <div id="land-sub-buttons" class="sub-buttons">
+        <button class="btn btn-info" onclick="showTable('land-pending')">معلق</button>
+        <button class="btn btn-success" onclick="showTable('land-accepted')">مقبول</button>
+        <button class="btn btn-danger" onclick="showTable('land-rejected')">مرفوض</button>
+    </div>
+
+    <div id="product-sub-buttons" class="sub-buttons">
+        <button class="btn btn-info" onclick="showTable('product-pending')">معلق</button>
+        <button class="btn btn-success" onclick="showTable('product-accepted')">مقبول</button>
+        <button class="btn btn-danger" onclick="showTable('product-rejected')">مرفوض</button>
+    </div>
+
+    <div id="land-pending" class="tables">
+        <!-- Farmer Applied Offers To Rent A Land Pending -->
+        <h1 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">العروض التي قمت بتقديمها من اجل تاجير الاراضي الزراعيه - معلق</h1>
+        @if (Model.LandOrder.Count == 0)
+        {
+            <h5 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">لم تقدم اي عروض بعد</h5>
+        }
+        else
+        {
+            <table class="table table-primary table-striped">
+                <thead>
+                    <tr>
+                        <td>اسم صاحب الارض</td>
+                        <td>هاتف صاحب الارض</td>
+                        <td>سعر العرض</td>
+                        <td>تاريخ البدايه</td>
+                        <td>تاريخ النهايه</td>
+                        <td>حاله العرض</td>
+                        <td>الغاء العرض</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.LandOrder.Where(o => o.LandRentStatus == FarmerLandRentStatus.Pending))
+                    {
+                        <tr>
+                            <td>@order.FarmerName</td>
+                            <td>@order.OwnerPhone</td>
+                            <td>@order.OrderPrice</td>
+                            <td>@order.OrderStartDate</td>
+                            <td>@order.OrderEndDate</td>
+                            <td class="table-primary">العرض مازال معلق</td>
+                            <td>
+                                @Html.ActionLink("الغاء العرض", "CancleRequest", "BuyerFarmers", new { OrderId = order.Id, OrderType = "LandOrder" }, new { @class = "btn btn-danger" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <div id="land-accepted" class="tables">
+        <!-- Farmer Applied Offers To Rent A Land Accepted -->
+        <h1 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">العروض التي قمت بتقديمها من اجل تاجير الاراضي الزراعيه - مقبول</h1>
+        @if (Model.LandOrder.Count == 0)
+        {
+            <h5 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">لم تقدم اي عروض بعد</h5>
+        }
+        else
+        {
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <td>اسم صاحب الارض</td>
+                        <td>هاتف صاحب الارض</td>
+                        <td>سعر العرض</td>
+                        <td>تاريخ البدايه</td>
+                        <td>تاريخ النهايه</td>
+                        <td>حاله العرض</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.LandOrder.Where(o => o.LandRentStatus == FarmerLandRentStatus.Accepted))
+                    {
+                        <tr>
+                            <td>@order.FarmerName</td>
+                            <td>@order.OwnerPhone</td>
+                            <td>@order.OrderPrice</td>
+                            <td>@order.OrderStartDate</td>
+                            <td>@order.OrderEndDate</td>
+                            <td class="table-success">تم قبول عرضك</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <div id="land-rejected" class="tables">
+        <!-- Farmer Applied Offers To Rent A Land Rejected -->
+        <h1 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">العروض التي قمت بتقديمها من اجل تاجير الاراضي الزراعيه - مرفوض</h1>
+        @if (Model.LandOrder.Count == 0)
+        {
+            <h5 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">لم تقدم اي عروض بعد</h5>
+        }
+        else
+        {
+            <table class="table table-danger table-striped">
+                <thead>
+                    <tr>
+                        <td>اسم صاحب الارض</td>
+                        <td>هاتف صاحب الارض</td>
+                        <td>سعر العرض</td>
+                        <td>تاريخ البدايه</td>
+                        <td>تاريخ النهايه</td>
+                        <td>حاله العرض</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.LandOrder.Where(o => o.LandRentStatus == FarmerLandRentStatus.Rejected))
+                    {
+                        <tr>
+                            <td>@order.FarmerName</td>
+                            <td>@order.OwnerPhone</td>
+                            <td>@order.OrderPrice</td>
+                            <td>@order.OrderStartDate</td>
+                            <td>@order.OrderEndDate</td>
+                            <td class="table-danger">تم رفض عرضك</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <div id="product-pending" class="tables">
+        <!-- Farmer Applied Offers To Buy A Product Pending -->
+        <h1 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">العروض التي قمت بتقديمها من اجل شراء بعض المحاصيل الزراعيه - معلق</h1>
+        @if (Model.ProductOrder.Count == 0)
+        {
+            <h5 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">لم تقدم اي عروض بعد</h5>
+        }
+        else
+        {
+            <table class="table table-primary table-striped">
+                <thead>
+                    <tr>
+                        <td>اسم المنتج</td>
+                        <td>سعر العرض</td>
+                        <td>الكميه المطلوبه</td>
+                        <td>صاحب المحصول</td>
+                        <td>هاتف صاحب المحصول</td>
+                        <td>حاله العرض</td>
+                        <td>الغاء العرض</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.ProductOrder.Where(o => o.ProductOffersStatus == FarmerProductOffersStatus.Pending))
+                    {
+                        <tr>
+                            <td>@order.ProductName</td>
+                            <td>@order.OrderPrice</td>
+                            <td>@order.OrderWeight</td>
+                            <td>@order.FarmerName</td>
+                            <td>@order.OwnerPhone</td>
+                            <td class="table-primary">العرض مازال معلق</td>
+                            <td>
+                                @Html.ActionLink("الغاء العرض", "CancleRequest", "BuyerFarmers", new { OrderId = order.Id, OrderType = "ProductOrder" }, new { @class = "btn btn-danger" })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <div id="product-accepted" class="tables">
+        <!-- Farmer Applied Offers To Buy A Product Accepted -->
+        <h1 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">العروض التي قمت بتقديمها من اجل شراء بعض المحاصيل الزراعيه - مقبول</h1>
+        @if (Model.ProductOrder.Count == 0)
+        {
+            <h5 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">لم تقدم اي عروض بعد</h5>
+        }
+        else
+        {
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <td>اسم المنتج</td>
+                        <td>سعر العرض</td>
+                        <td>الكميه المطلوبه</td>
+                        <td>صاحب المحصول</td>
+                        <td>هاتف صاحب المحصول</td>
+                        <td>حاله العرض</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.ProductOrder.Where(o => o.ProductOffersStatus == FarmerProductOffersStatus.Accepted))
+                    {
+                        <tr>
+                            <td>@order.ProductName</td>
+                            <td>@order.OrderPrice</td>
+                            <td>@order.OrderWeight</td>
+                            <td>@order.FarmerName</td>
+                            <td>@order.OwnerPhone</td>
+                            <td class="table-success">تم قبول عرضك</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <div id="product-rejected" class="tables">
+        <!-- Farmer Applied Offers To Buy A Product Rejected -->
+        <h1 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">العروض التي قمت بتقديمها من اجل شراء بعض المحاصيل الزراعيه - مرفوض</h1>
+        @if (Model.ProductOrder.Count == 0)
+        {
+            <h5 style="display:flex;justify-content:center;align-items:center;font-size:25px;color:#198754;margin:30px">لم تقدم اي عروض بعد</h5>
+        }
+        else
+        {
+            <table class="table table-danger table-striped">
+                <thead>
+                    <tr>
+                        <td>اسم المنتج</td>
+                        <td>سعر العرض</td>
+                        <td>الكميه المطلوبه</td>
+                        <td>صاحب المحصول</td>
+                        <td>هاتف صاحب المحصول</td>
+                        <td>حاله العرض</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.ProductOrder.Where(o => o.ProductOffersStatus == FarmerProductOffersStatus.Rejected))
+                    {
+                        <tr>
+                            <td>@order.ProductName</td>
+                            <td>@order.OrderPrice</td>
+                            <td>@order.OrderWeight</td>
+                            <td>@order.FarmerName</td>
+                            <td>@order.OwnerPhone</td>
+                            <td class="table-danger">تم رفض عرضك</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="column">
+                <img src="~/7asadLogo.svg" alt="Logo">
+                <p>حصاد</p>
+                <div class="contact-info">
+                    <p>Asiut Square Mall – First Tourist Village</p>
+                    <p>6 October, Asiut – Egypt</p>
+                    <p>info@tasd.net</p>
+                    <p>01226393057</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>روابط سريعة</h3>
+                <div class="links">
+                    <a href="#">الرئيسية</a>
+                    <a href="#">الخدمات</a>
+                    <a href="#">تكنولوجيا</a>
+                    <a href="#">المدونة</a>
+                </div>
+            </div>
+            <div class="column">
+                <h3>تابعنا</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2024 جميع الحقوق محفوظة لتطبيق حصاد</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleSubButtons(section) {
+            document.querySelectorAll('.sub-buttons').forEach(btn => btn.style.display = 'none');
+            document.querySelector(`#${section}-sub-buttons`).style.display = 'flex';
+            document.querySelectorAll('.tables').forEach(table => table.style.display = 'none');
+        }
+
+        function showTable(tableId) {
+            document.querySelectorAll('.tables').forEach(table => table.style.display = 'none');
+            document.querySelector(`#${tableId}`).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
